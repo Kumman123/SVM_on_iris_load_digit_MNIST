@@ -1,0 +1,40 @@
+# Support Vector Machine (SVM) on MNIST Dataset
+
+This project implements Support Vector Machines (SVM) to classify handwritten digits from the MNIST dataset. The performance is evaluated using two SVM kernels: **Linear** and **Radial Basis Function (RBF)**.
+
+---
+
+## **Table of Contents**
+1. [Overview](#overview)
+2. [Dataset](#dataset)
+3. [Requirements](#requirements)
+4. [Code Explanation](#code-explanation)
+5. [Evaluation Metrics](#evaluation-metrics)
+6. [How to Run](#how-to-run)
+7. [Results](#results)
+8. [Acknowledgments](#acknowledgments)
+
+---
+
+## **Overview**
+
+- **Objective:** Classify handwritten digits (0-9) using SVM.
+- **Kernels Used:**
+  - Linear Kernel
+  - RBF (Radial Basis Function) Kernel
+
+---
+
+## **Dataset**
+
+- **Source:** MNIST dataset
+- **Format:** CSV file containing 28x28 pixel images flattened into 784 features.
+- **Target:** Digit labels (0 to 9).
+
+---
+
+## **Requirements**
+
+Install the required Python libraries using:
+```bash
+pip install pandas scikit-learn
